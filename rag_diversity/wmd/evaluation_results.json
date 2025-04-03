@@ -1,0 +1,764 @@
+{
+    "threshold": {
+        "Rouge1": [
+            {
+                "th": 0,
+                "Rouge1 Score": 0.16085627483354323,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Rouge1 Score": 0.1502314070616551,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Rouge1 Score": 0.1735665135973092,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Rouge1 Score": 0.16062253614757546,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Rouge1 Score": 0.15645059017884744,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Rouge1 Score": 0.16714070736685877,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Rouge1 Score": 0.16134889354870452,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Rouge1 Score": 0.17785927719743377,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Rouge1 Score": 0.1589533255511688,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Rouge1 Score": 0.15979144698453468,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Rouge1 Score": 0.163625136070853,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Rouge1 Score": 0.16363496476990982,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Rouge1 Score": 0.1804569232798661,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Rouge1 Score": 0.1773085635905038,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Rouge1 Score": 0.1702210388682998,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Rouge1 Score": 0.5855972349337183,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Rouge1 Score": 0.5843668751825454,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Rouge1 Score": 0.5931488179001143,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Rouge1 Score": 0.5916634466292131,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Rouge1 Score": 0.5791850903252876,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Rouge1 Score": 0.5828395205084874,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Rouge1 Score": 0.589548496271704,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Rouge1 Score": 0.573684596731797,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Rouge1 Score": 0.5818468853522435,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Rouge1 Score": 0.5948996483276406,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Rouge1 Score": 0.5784972269353171,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Rouge1 Score": 0.5903761214393689,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Rouge1 Score": 0.5983264371233623,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Rouge1 Score": 0.5777141695857974,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Rouge1 Score": 0.5950360216973491,
+                "dataset": "TriviaQA"
+            }
+        ],
+        "Rouge2": [
+            {
+                "th": 0,
+                "Rouge2 Score": 0.07253596520639058,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Rouge2 Score": 0.06928027402328985,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Rouge2 Score": 0.0779035111782106,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Rouge2 Score": 0.07318458434557698,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Rouge2 Score": 0.07578114041703628,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Rouge2 Score": 0.07926637240169411,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Rouge2 Score": 0.08051563596431681,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Rouge2 Score": 0.09030926549317614,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Rouge2 Score": 0.07299490358851915,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Rouge2 Score": 0.07225136829773003,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Rouge2 Score": 0.07406313685043316,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Rouge2 Score": 0.08056998475974225,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Rouge2 Score": 0.0860579537528834,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Rouge2 Score": 0.09036085791946966,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Rouge2 Score": 0.07619518488748979,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Rouge2 Score": 0.2630442460717685,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Rouge2 Score": 0.2646384461257348,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Rouge2 Score": 0.2689008127774571,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Rouge2 Score": 0.2631645605232908,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Rouge2 Score": 0.2615061632188326,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Rouge2 Score": 0.26645412155460585,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Rouge2 Score": 0.26803453667746774,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Rouge2 Score": 0.2493936522021327,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Rouge2 Score": 0.2634185981402733,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Rouge2 Score": 0.27463163817207653,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Rouge2 Score": 0.26470965596916807,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Rouge2 Score": 0.2708950763924459,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Rouge2 Score": 0.2733165191499746,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Rouge2 Score": 0.2671780661891483,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Rouge2 Score": 0.27542813024799623,
+                "dataset": "TriviaQA"
+            }
+        ],
+        "RougeL": [
+            {
+                "th": 0,
+                "RougeL Score": 0.25259506649386176,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "RougeL Score": 0.24199242538373794,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "RougeL Score": 0.26634564086606927,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "RougeL Score": 0.2447017736532712,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "RougeL Score": 0.2452140697280646,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "RougeL Score": 0.2632886017106938,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "RougeL Score": 0.25832010015274937,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "RougeL Score": 0.27395541351036806,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "RougeL Score": 0.2534902775747112,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "RougeL Score": 0.2697028641289385,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "RougeL Score": 0.29199867675605956,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "RougeL Score": 0.29416919027901595,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "RougeL Score": 0.3012543239951855,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "RougeL Score": 0.3094690068260121,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "RougeL Score": 0.29436974542773975,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "RougeL Score": 0.6779364038342681,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "RougeL Score": 0.6735331350779808,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "RougeL Score": 0.6816714405703655,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "RougeL Score": 0.6800475334900742,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "RougeL Score": 0.6801407536498603,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "RougeL Score": 0.6721267714794695,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "RougeL Score": 0.6834011809345536,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "RougeL Score": 0.6669465458844481,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "RougeL Score": 0.6688812758359773,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "RougeL Score": 0.7012325461679639,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "RougeL Score": 0.6905394569696962,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "RougeL Score": 0.6908322571454909,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "RougeL Score": 0.7001981112292448,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "RougeL Score": 0.6968756626081231,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "RougeL Score": 0.7012644385181753,
+                "dataset": "TriviaQA"
+            }
+        ],
+        "Inner Diversity": [
+            {
+                "th": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Inner Diversity Score": 0.0008508466791642798,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            }
+        ],
+        "Inter Diversity": [
+            {
+                "th": 0,
+                "Inter Diversity Score": 0.33207109784408434,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Inter Diversity Score": 0.34225037995805774,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Inter Diversity Score": 0.33457445561960186,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Inter Diversity Score": 0.3301845524127573,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Inter Diversity Score": 0.3292648066563522,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Inter Diversity Score": 0.3349584377216119,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Inter Diversity Score": 0.33815415705993573,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Inter Diversity Score": 0.337833541884359,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Inter Diversity Score": 0.304437597128939,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Inter Diversity Score": 0.3235011953430447,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Inter Diversity Score": 0.30897583291852765,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Inter Diversity Score": 0.3031180656852308,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Inter Diversity Score": 0.3071315329542483,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Inter Diversity Score": 0.3156680571954978,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Inter Diversity Score": 0.30523284472405815,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Inter Diversity Score": 0.29066404978204674,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Inter Diversity Score": 0.2883574064950412,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Inter Diversity Score": 0.29365464146497117,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Inter Diversity Score": 0.29322106435425177,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Inter Diversity Score": 0.29130352730858405,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Inter Diversity Score": 0.2879523327100434,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Inter Diversity Score": 0.28357562122381047,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Inter Diversity Score": 0.2889951701017592,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Inter Diversity Score": 0.2961304141209752,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Inter Diversity Score": 0.27277295001680085,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Inter Diversity Score": 0.2648628678752037,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Inter Diversity Score": 0.2715562699800083,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Inter Diversity Score": 0.27469451081171326,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Inter Diversity Score": 0.2680358357740579,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Inter Diversity Score": 0.26800142985758585,
+                "dataset": "TriviaQA"
+            }
+        ]
+    }
+}

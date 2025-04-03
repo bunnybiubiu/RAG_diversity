@@ -1,0 +1,2526 @@
+{
+    "top-k": {
+        "Rouge1": [
+            {
+                "k": 0,
+                "Rouge1 Score": 0.3721972603428249,
+                "dataset": "NQ"
+            },
+            {
+                "k": 1,
+                "Rouge1 Score": 0.36667760647019726,
+                "dataset": "NQ"
+            },
+            {
+                "k": 2,
+                "Rouge1 Score": 0.36407997844006396,
+                "dataset": "NQ"
+            },
+            {
+                "k": 3,
+                "Rouge1 Score": 0.36544317776633756,
+                "dataset": "NQ"
+            },
+            {
+                "k": 5,
+                "Rouge1 Score": 0.3586204658535042,
+                "dataset": "NQ"
+            },
+            {
+                "k": 10,
+                "Rouge1 Score": 0.3592881776502081,
+                "dataset": "NQ"
+            },
+            {
+                "k": 15,
+                "Rouge1 Score": 0.3633020179129987,
+                "dataset": "NQ"
+            },
+            {
+                "k": 20,
+                "Rouge1 Score": 0.36826124015636746,
+                "dataset": "NQ"
+            },
+            {
+                "k": 30,
+                "Rouge1 Score": 0.3728290728576895,
+                "dataset": "NQ"
+            },
+            {
+                "k": 40,
+                "Rouge1 Score": 0.3697167118681881,
+                "dataset": "NQ"
+            },
+            {
+                "k": 0,
+                "Rouge1 Score": 0.5371416463955139,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 1,
+                "Rouge1 Score": 0.5372204132810832,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 2,
+                "Rouge1 Score": 0.5353785563479059,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 3,
+                "Rouge1 Score": 0.5256237243607209,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 5,
+                "Rouge1 Score": 0.5363671412308643,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 10,
+                "Rouge1 Score": 0.5336571688161044,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 15,
+                "Rouge1 Score": 0.5305004249505796,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 20,
+                "Rouge1 Score": 0.5387718363336009,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 30,
+                "Rouge1 Score": 0.5328757545884478,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 40,
+                "Rouge1 Score": 0.5278421254127132,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 0,
+                "Rouge1 Score": 0.2935932504211012,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 1,
+                "Rouge1 Score": 0.28242346757486136,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 2,
+                "Rouge1 Score": 0.2865056064180463,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 3,
+                "Rouge1 Score": 0.284301919805709,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 5,
+                "Rouge1 Score": 0.2818457998756558,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 10,
+                "Rouge1 Score": 0.27876810922671397,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 15,
+                "Rouge1 Score": 0.27828696310485074,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 20,
+                "Rouge1 Score": 0.28439779504559254,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 30,
+                "Rouge1 Score": 0.2817200582115255,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 40,
+                "Rouge1 Score": 0.2818564427278229,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 0,
+                "Rouge1 Score": 0.39760910719624104,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 1,
+                "Rouge1 Score": 0.3943789207577023,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 2,
+                "Rouge1 Score": 0.3975461813236855,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 3,
+                "Rouge1 Score": 0.40040823274321186,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 5,
+                "Rouge1 Score": 0.39377876935403133,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 10,
+                "Rouge1 Score": 0.391220881386153,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 15,
+                "Rouge1 Score": 0.3990640965210113,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 20,
+                "Rouge1 Score": 0.40769963720072805,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 30,
+                "Rouge1 Score": 0.39795318987205275,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 40,
+                "Rouge1 Score": 0.39561587596916137,
+                "dataset": "ASQA"
+            }
+        ],
+        "Rouge2": [
+            {
+                "k": 0,
+                "Rouge2 Score": 0.1882563886389403,
+                "dataset": "NQ"
+            },
+            {
+                "k": 1,
+                "Rouge2 Score": 0.18118956204937062,
+                "dataset": "NQ"
+            },
+            {
+                "k": 2,
+                "Rouge2 Score": 0.1787643197371251,
+                "dataset": "NQ"
+            },
+            {
+                "k": 3,
+                "Rouge2 Score": 0.17765911267126455,
+                "dataset": "NQ"
+            },
+            {
+                "k": 5,
+                "Rouge2 Score": 0.1842729922425207,
+                "dataset": "NQ"
+            },
+            {
+                "k": 10,
+                "Rouge2 Score": 0.17729049388254106,
+                "dataset": "NQ"
+            },
+            {
+                "k": 15,
+                "Rouge2 Score": 0.18043176820124626,
+                "dataset": "NQ"
+            },
+            {
+                "k": 20,
+                "Rouge2 Score": 0.1889410625574449,
+                "dataset": "NQ"
+            },
+            {
+                "k": 30,
+                "Rouge2 Score": 0.1837730354028969,
+                "dataset": "NQ"
+            },
+            {
+                "k": 40,
+                "Rouge2 Score": 0.17915893476851363,
+                "dataset": "NQ"
+            },
+            {
+                "k": 0,
+                "Rouge2 Score": 0.2674974542676297,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 1,
+                "Rouge2 Score": 0.26759464379560355,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 2,
+                "Rouge2 Score": 0.26712992040639094,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 3,
+                "Rouge2 Score": 0.25662136670232644,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 5,
+                "Rouge2 Score": 0.27269059437294735,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 10,
+                "Rouge2 Score": 0.26160874254286015,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 15,
+                "Rouge2 Score": 0.26584142709142705,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 20,
+                "Rouge2 Score": 0.2725612720612721,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 30,
+                "Rouge2 Score": 0.26659766001685503,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 40,
+                "Rouge2 Score": 0.2659985383038015,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 0,
+                "Rouge2 Score": 0.12450634177724572,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 1,
+                "Rouge2 Score": 0.11888629476700792,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 2,
+                "Rouge2 Score": 0.125093723509313,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 3,
+                "Rouge2 Score": 0.11545597593504472,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 5,
+                "Rouge2 Score": 0.11209606743752794,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 10,
+                "Rouge2 Score": 0.11405350669305667,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 15,
+                "Rouge2 Score": 0.11438245317275385,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 20,
+                "Rouge2 Score": 0.11520808351603419,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 30,
+                "Rouge2 Score": 0.11806271896730022,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 40,
+                "Rouge2 Score": 0.11775272848345929,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 0,
+                "Rouge2 Score": 0.22504977147414496,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 1,
+                "Rouge2 Score": 0.2192314868007584,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 2,
+                "Rouge2 Score": 0.22918100767247726,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 3,
+                "Rouge2 Score": 0.22208740147635703,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 5,
+                "Rouge2 Score": 0.22161294031697984,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 10,
+                "Rouge2 Score": 0.23181093872258793,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 15,
+                "Rouge2 Score": 0.22584692275346355,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 20,
+                "Rouge2 Score": 0.2349396778036502,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 30,
+                "Rouge2 Score": 0.22200135358003847,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 40,
+                "Rouge2 Score": 0.23002049602243346,
+                "dataset": "ASQA"
+            }
+        ],
+        "RougeL": [
+            {
+                "k": 0,
+                "RougeL Score": 0.47284846939101094,
+                "dataset": "NQ"
+            },
+            {
+                "k": 1,
+                "RougeL Score": 0.4679620983357826,
+                "dataset": "NQ"
+            },
+            {
+                "k": 2,
+                "RougeL Score": 0.4592594540960547,
+                "dataset": "NQ"
+            },
+            {
+                "k": 3,
+                "RougeL Score": 0.46317018940979576,
+                "dataset": "NQ"
+            },
+            {
+                "k": 5,
+                "RougeL Score": 0.46235633067650106,
+                "dataset": "NQ"
+            },
+            {
+                "k": 10,
+                "RougeL Score": 0.45536685011870753,
+                "dataset": "NQ"
+            },
+            {
+                "k": 15,
+                "RougeL Score": 0.4623260908002142,
+                "dataset": "NQ"
+            },
+            {
+                "k": 20,
+                "RougeL Score": 0.4664199124388819,
+                "dataset": "NQ"
+            },
+            {
+                "k": 30,
+                "RougeL Score": 0.46381907374792203,
+                "dataset": "NQ"
+            },
+            {
+                "k": 40,
+                "RougeL Score": 0.46927003513323307,
+                "dataset": "NQ"
+            },
+            {
+                "k": 0,
+                "RougeL Score": 0.5711813728754904,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 1,
+                "RougeL Score": 0.5716519275757551,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 2,
+                "RougeL Score": 0.5738230558112908,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 3,
+                "RougeL Score": 0.5613909130601077,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 5,
+                "RougeL Score": 0.5717940259276575,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 10,
+                "RougeL Score": 0.569150768839004,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 15,
+                "RougeL Score": 0.5658710144402093,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 20,
+                "RougeL Score": 0.5748773359538064,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 30,
+                "RougeL Score": 0.5655730750297312,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 40,
+                "RougeL Score": 0.5614479346361695,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 0,
+                "RougeL Score": 0.3295420105865563,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 1,
+                "RougeL Score": 0.32088261549965397,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 2,
+                "RougeL Score": 0.3239484544753576,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 3,
+                "RougeL Score": 0.3206328618614298,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 5,
+                "RougeL Score": 0.31862685240305194,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 10,
+                "RougeL Score": 0.31507979038877176,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 15,
+                "RougeL Score": 0.3093527448012647,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 20,
+                "RougeL Score": 0.3185963308960472,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 30,
+                "RougeL Score": 0.31791436203336565,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 40,
+                "RougeL Score": 0.31274926504356115,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 0,
+                "RougeL Score": 0.4734492206500718,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 1,
+                "RougeL Score": 0.46911889629843173,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 2,
+                "RougeL Score": 0.4581835535313012,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 3,
+                "RougeL Score": 0.4636854877276496,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 5,
+                "RougeL Score": 0.4636636390026947,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 10,
+                "RougeL Score": 0.4592652581522555,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 15,
+                "RougeL Score": 0.4694089460559124,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 20,
+                "RougeL Score": 0.47587471096584744,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 30,
+                "RougeL Score": 0.465077998465069,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 40,
+                "RougeL Score": 0.4688805322063362,
+                "dataset": "ASQA"
+            }
+        ],
+        "Inner Diversity": [
+            {
+                "k": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 2,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 10,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 15,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 20,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 30,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 40,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "k": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 2,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 10,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 15,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 20,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 30,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 40,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 2,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 10,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 15,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 20,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 30,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 40,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 0,
+                "Inner Diversity Score": 0.0008618273951806055,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 1,
+                "Inner Diversity Score": 0.0008618273951806055,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 2,
+                "Inner Diversity Score": 0.0008618273951806055,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 3,
+                "Inner Diversity Score": 0.0012927410927709082,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 5,
+                "Inner Diversity Score": 0.0008618273951806055,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 10,
+                "Inner Diversity Score": 0.0007572812144227825,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 15,
+                "Inner Diversity Score": 0.0008618273951806055,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 20,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 30,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 40,
+                "Inner Diversity Score": 0.001723654790361211,
+                "dataset": "ASQA"
+            }
+        ],
+        "Inter Diversity": [
+            {
+                "k": 0,
+                "Inter Diversity Score": 0.23140363088924562,
+                "dataset": "NQ"
+            },
+            {
+                "k": 1,
+                "Inter Diversity Score": 0.21991167496089126,
+                "dataset": "NQ"
+            },
+            {
+                "k": 2,
+                "Inter Diversity Score": 0.23863866935421799,
+                "dataset": "NQ"
+            },
+            {
+                "k": 3,
+                "Inter Diversity Score": 0.2323712709894264,
+                "dataset": "NQ"
+            },
+            {
+                "k": 5,
+                "Inter Diversity Score": 0.23378548943363459,
+                "dataset": "NQ"
+            },
+            {
+                "k": 10,
+                "Inter Diversity Score": 0.22804905866870825,
+                "dataset": "NQ"
+            },
+            {
+                "k": 15,
+                "Inter Diversity Score": 0.2319487844877194,
+                "dataset": "NQ"
+            },
+            {
+                "k": 20,
+                "Inter Diversity Score": 0.21959940156527408,
+                "dataset": "NQ"
+            },
+            {
+                "k": 30,
+                "Inter Diversity Score": 0.23036353615597316,
+                "dataset": "NQ"
+            },
+            {
+                "k": 40,
+                "Inter Diversity Score": 0.23694440747477777,
+                "dataset": "NQ"
+            },
+            {
+                "k": 0,
+                "Inter Diversity Score": 0.12722744609673992,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 1,
+                "Inter Diversity Score": 0.12332341568412213,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 2,
+                "Inter Diversity Score": 0.12419292013233958,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 3,
+                "Inter Diversity Score": 0.12837560433273232,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 5,
+                "Inter Diversity Score": 0.12055510302186798,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 10,
+                "Inter Diversity Score": 0.11949917401560783,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 15,
+                "Inter Diversity Score": 0.13501753995951055,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 20,
+                "Inter Diversity Score": 0.1276728582658088,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 30,
+                "Inter Diversity Score": 0.13521781501352848,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 40,
+                "Inter Diversity Score": 0.13662024621140992,
+                "dataset": "TriviaQA"
+            },
+            {
+                "k": 0,
+                "Inter Diversity Score": 0.2883602142892372,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 1,
+                "Inter Diversity Score": 0.27423129982626804,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 2,
+                "Inter Diversity Score": 0.2691160312284729,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 3,
+                "Inter Diversity Score": 0.26588757262037904,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 5,
+                "Inter Diversity Score": 0.2800207184572892,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 10,
+                "Inter Diversity Score": 0.27789246470521856,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 15,
+                "Inter Diversity Score": 0.2635177077266395,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 20,
+                "Inter Diversity Score": 0.26699509355535433,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 30,
+                "Inter Diversity Score": 0.2760213257267816,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 40,
+                "Inter Diversity Score": 0.27602457407895487,
+                "dataset": "SQuAD"
+            },
+            {
+                "k": 0,
+                "Inter Diversity Score": 0.24046257794980697,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 1,
+                "Inter Diversity Score": 0.22824059063040436,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 2,
+                "Inter Diversity Score": 0.21984667943934696,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 3,
+                "Inter Diversity Score": 0.21227423025708073,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 5,
+                "Inter Diversity Score": 0.2133023241291997,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 10,
+                "Inter Diversity Score": 0.21077715011374692,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 15,
+                "Inter Diversity Score": 0.21976364922412606,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 20,
+                "Inter Diversity Score": 0.21529378011322914,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 30,
+                "Inter Diversity Score": 0.22253384674959795,
+                "dataset": "ASQA"
+            },
+            {
+                "k": 40,
+                "Inter Diversity Score": 0.2184913653368085,
+                "dataset": "ASQA"
+            }
+        ]
+    },
+    "threshold": {
+        "Rouge1": [
+            {
+                "th": 0,
+                "Rouge1 Score": 0.15710420386841675,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Rouge1 Score": 0.16026767227515665,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Rouge1 Score": 0.1722789427069244,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Rouge1 Score": 0.16785015232513625,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Rouge1 Score": 0.17811330678149317,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Rouge1 Score": 0.17357270707449118,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Rouge1 Score": 0.1795422217143706,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Rouge1 Score": 0.1616810360842905,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Rouge1 Score": 0.17766883334432534,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Rouge1 Score": 0.16113549779293215,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Rouge1 Score": 0.1758739080144368,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Rouge1 Score": 0.17769171210420032,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Rouge1 Score": 0.17322469324562614,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Rouge1 Score": 0.1750423252503036,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Rouge1 Score": 0.17485354181337395,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Rouge1 Score": 0.5924742293706797,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Rouge1 Score": 0.5860389303074225,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Rouge1 Score": 0.22545589596507842,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Rouge1 Score": 0.219604221344046,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Rouge1 Score": 0.2205766908940556,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Rouge1 Score": 0.2166006561823762,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Rouge1 Score": 0.21133888536575143,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Rouge1 Score": 0.22392780952166896,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Rouge1 Score": 0.2158120735054574,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Rouge1 Score": 0.587275529033209,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Rouge1 Score": 0.5957199165548467,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Rouge1 Score": 0.5779503853477239,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Rouge1 Score": 0.5978796294328278,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Rouge1 Score": 0.5903360261858906,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Rouge1 Score": 0.5941067847707322,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0,
+                "Rouge1 Score": 0.11588336357744143,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.3,
+                "Rouge1 Score": 0.1053288029598759,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.5,
+                "Rouge1 Score": 0.11528957791491112,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.6,
+                "Rouge1 Score": 0.12701912371461724,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.7,
+                "Rouge1 Score": 0.12328949082302386,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.75,
+                "Rouge1 Score": 0.12429874678761108,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.8,
+                "Rouge1 Score": 0.13222342526881073,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.83,
+                "Rouge1 Score": 0.12000832074395576,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.85,
+                "Rouge1 Score": 0.11687452534323768,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.88,
+                "Rouge1 Score": 0.12379890861529219,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.9,
+                "Rouge1 Score": 0.1211016288701538,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.92,
+                "Rouge1 Score": 0.11837074971729988,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.95,
+                "Rouge1 Score": 0.15434626573900678,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.98,
+                "Rouge1 Score": 0.16337436109250444,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 1,
+                "Rouge1 Score": 0.15646741313469525,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0,
+                "Rouge1 Score": 0.17418440946034155,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.3,
+                "Rouge1 Score": 0.16197757742631347,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.5,
+                "Rouge1 Score": 0.1897156422791033,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.6,
+                "Rouge1 Score": 0.18238603057098918,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.7,
+                "Rouge1 Score": 0.18600339068794958,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.75,
+                "Rouge1 Score": 0.1769693113812202,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.8,
+                "Rouge1 Score": 0.17810377582671746,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.83,
+                "Rouge1 Score": 0.1762613428338844,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.85,
+                "Rouge1 Score": 0.18098965797622787,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.88,
+                "Rouge1 Score": 0.19634428364508874,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.9,
+                "Rouge1 Score": 0.1838700734092334,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.92,
+                "Rouge1 Score": 0.1934121031893368,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.95,
+                "Rouge1 Score": 0.18163431167782393,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.98,
+                "Rouge1 Score": 0.18922886709128853,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 1,
+                "Rouge1 Score": 0.18754163567363505,
+                "dataset": "ASQA"
+            }
+        ],
+        "Rouge2": [
+            {
+                "th": 0,
+                "Rouge2 Score": 0.07621170188839194,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Rouge2 Score": 0.0786809568067331,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Rouge2 Score": 0.08190602284709939,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Rouge2 Score": 0.07693552895581925,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Rouge2 Score": 0.08371275016308426,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Rouge2 Score": 0.07910429429554729,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Rouge2 Score": 0.08325322322453955,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Rouge2 Score": 0.07715512747010864,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Rouge2 Score": 0.08174699291755885,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Rouge2 Score": 0.07420339612839688,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Rouge2 Score": 0.08658581401589617,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Rouge2 Score": 0.08300049002368917,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Rouge2 Score": 0.08971445361115461,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Rouge2 Score": 0.07553738619691387,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Rouge2 Score": 0.08674875376996273,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Rouge2 Score": 0.2668833091328103,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Rouge2 Score": 0.2587231164854481,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Rouge2 Score": 0.09976147488364846,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Rouge2 Score": 0.0955064240029637,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Rouge2 Score": 0.10197709017900389,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Rouge2 Score": 0.09352072320872969,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Rouge2 Score": 0.09013067968380661,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Rouge2 Score": 0.10488525684218912,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Rouge2 Score": 0.09513487277772109,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Rouge2 Score": 0.27184341486063357,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Rouge2 Score": 0.2752790611185689,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Rouge2 Score": 0.2630512116309887,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Rouge2 Score": 0.280513552257809,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Rouge2 Score": 0.2714200460223396,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Rouge2 Score": 0.2743879319908733,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0,
+                "Rouge2 Score": 0.041470570190925364,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.3,
+                "Rouge2 Score": 0.03847935514812308,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.5,
+                "Rouge2 Score": 0.04075712165940837,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.6,
+                "Rouge2 Score": 0.049669098278570294,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.7,
+                "Rouge2 Score": 0.04726124984982025,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.75,
+                "Rouge2 Score": 0.04532749808423562,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.8,
+                "Rouge2 Score": 0.052168113814064034,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.83,
+                "Rouge2 Score": 0.046066987323023986,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.85,
+                "Rouge2 Score": 0.04362873013402623,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.88,
+                "Rouge2 Score": 0.045913299834822376,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.9,
+                "Rouge2 Score": 0.044452809451542265,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.92,
+                "Rouge2 Score": 0.04315426824228184,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.95,
+                "Rouge2 Score": 0.055517047442619,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.98,
+                "Rouge2 Score": 0.06275708842064097,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 1,
+                "Rouge2 Score": 0.06589500343860506,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0,
+                "Rouge2 Score": 0.09698745049088248,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.3,
+                "Rouge2 Score": 0.09102133321168472,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.5,
+                "Rouge2 Score": 0.11246747463822229,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.6,
+                "Rouge2 Score": 0.10547691319859318,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.7,
+                "Rouge2 Score": 0.10296760619586567,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.75,
+                "Rouge2 Score": 0.1009763504518924,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.8,
+                "Rouge2 Score": 0.10216932555040341,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.83,
+                "Rouge2 Score": 0.1026341032248821,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.85,
+                "Rouge2 Score": 0.10096880298322009,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.88,
+                "Rouge2 Score": 0.11252008478019954,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.9,
+                "Rouge2 Score": 0.10580253320170163,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.92,
+                "Rouge2 Score": 0.10544331058315831,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.95,
+                "Rouge2 Score": 0.09925682043189171,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.98,
+                "Rouge2 Score": 0.1115436128361567,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 1,
+                "Rouge2 Score": 0.11096019405500358,
+                "dataset": "ASQA"
+            }
+        ],
+        "RougeL": [
+            {
+                "th": 0,
+                "RougeL Score": 0.24034257323390193,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "RougeL Score": 0.25493872711781673,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "RougeL Score": 0.29369243012731505,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "RougeL Score": 0.3111493602977638,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "RougeL Score": 0.31009087226913823,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "RougeL Score": 0.31056529781096515,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "RougeL Score": 0.3098957610832994,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "RougeL Score": 0.2896459388657163,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "RougeL Score": 0.3044239654193244,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "RougeL Score": 0.2846211198198044,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "RougeL Score": 0.3066200178273598,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "RougeL Score": 0.3170482662994618,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "RougeL Score": 0.29677603662654783,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "RougeL Score": 0.3014937532176628,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "RougeL Score": 0.3092646192194454,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "RougeL Score": 0.6802588688063157,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "RougeL Score": 0.6774053575495087,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "RougeL Score": 0.26813335621064516,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "RougeL Score": 0.2584189158671535,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "RougeL Score": 0.2618366684481632,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "RougeL Score": 0.2592388160531616,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "RougeL Score": 0.2523506888686303,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "RougeL Score": 0.25984037080257133,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "RougeL Score": 0.25470490484806446,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "RougeL Score": 0.6983579846379749,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "RougeL Score": 0.7096281069643157,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "RougeL Score": 0.6956987580160168,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "RougeL Score": 0.703417075528672,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "RougeL Score": 0.7009841841710962,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "RougeL Score": 0.7103138699851632,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0,
+                "RougeL Score": 0.14312791315454926,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.3,
+                "RougeL Score": 0.13018519557573147,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.5,
+                "RougeL Score": 0.15123070425689877,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.6,
+                "RougeL Score": 0.15404144996106645,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.7,
+                "RougeL Score": 0.16070854487801234,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.75,
+                "RougeL Score": 0.15759942316178124,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.8,
+                "RougeL Score": 0.16169392010598824,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.83,
+                "RougeL Score": 0.15534406754848767,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.85,
+                "RougeL Score": 0.1543151117256624,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.88,
+                "RougeL Score": 0.15599786701656018,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.9,
+                "RougeL Score": 0.15824444971795287,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.92,
+                "RougeL Score": 0.15866802880238712,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.95,
+                "RougeL Score": 0.20958757811459414,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.98,
+                "RougeL Score": 0.2106984297690897,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 1,
+                "RougeL Score": 0.21535575926383846,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0,
+                "RougeL Score": 0.24066286224155328,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.3,
+                "RougeL Score": 0.23083985679481214,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.5,
+                "RougeL Score": 0.280607432041669,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.6,
+                "RougeL Score": 0.27164255629935224,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.7,
+                "RougeL Score": 0.27773899183687045,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.75,
+                "RougeL Score": 0.2545930739614127,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.8,
+                "RougeL Score": 0.25977663893769015,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.83,
+                "RougeL Score": 0.26252093453759434,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.85,
+                "RougeL Score": 0.2636112566390117,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.88,
+                "RougeL Score": 0.2832726691572483,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.9,
+                "RougeL Score": 0.2708752937010959,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.92,
+                "RougeL Score": 0.2785191112153274,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.95,
+                "RougeL Score": 0.2691207763015453,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.98,
+                "RougeL Score": 0.27630390303989005,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 1,
+                "RougeL Score": 0.2655796783175698,
+                "dataset": "ASQA"
+            }
+        ],
+        "Inner Diversity": [
+            {
+                "th": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.6,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.7,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.75,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.8,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.83,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.85,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.88,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.9,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.92,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.95,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.98,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.3,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.5,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.6,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.7,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.75,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.8,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.83,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.85,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.88,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.9,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.92,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.95,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.98,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 1,
+                "Inner Diversity Score": 0.0,
+                "dataset": "ASQA"
+            }
+        ],
+        "Inter Diversity": [
+            {
+                "th": 0,
+                "Inter Diversity Score": 0.3342678063083678,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.3,
+                "Inter Diversity Score": 0.3190503733208128,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.5,
+                "Inter Diversity Score": 0.3083598783950802,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.6,
+                "Inter Diversity Score": 0.30386527765578547,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.7,
+                "Inter Diversity Score": 0.3021844594962653,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.75,
+                "Inter Diversity Score": 0.30849864941773947,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.8,
+                "Inter Diversity Score": 0.31130231342922116,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.83,
+                "Inter Diversity Score": 0.3064803634835133,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.85,
+                "Inter Diversity Score": 0.30317241473063494,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.88,
+                "Inter Diversity Score": 0.3009387102611766,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.9,
+                "Inter Diversity Score": 0.2947327656369808,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.92,
+                "Inter Diversity Score": 0.2937475324521066,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.95,
+                "Inter Diversity Score": 0.29807546526792633,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0.98,
+                "Inter Diversity Score": 0.31218649123167563,
+                "dataset": "NQ"
+            },
+            {
+                "th": 1,
+                "Inter Diversity Score": 0.30696035545838307,
+                "dataset": "NQ"
+            },
+            {
+                "th": 0,
+                "Inter Diversity Score": 0.2785558237947905,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.3,
+                "Inter Diversity Score": 0.2850380419138892,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.5,
+                "Inter Diversity Score": 0.2833590938492774,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.6,
+                "Inter Diversity Score": 0.2540359478135704,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.7,
+                "Inter Diversity Score": 0.2778622524514008,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.75,
+                "Inter Diversity Score": 0.27701137180253804,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.8,
+                "Inter Diversity Score": 0.2716466285942429,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.83,
+                "Inter Diversity Score": 0.27141800090930357,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.85,
+                "Inter Diversity Score": 0.28969179819937246,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.88,
+                "Inter Diversity Score": 0.27155143976034235,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.9,
+                "Inter Diversity Score": 0.264363192803555,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.92,
+                "Inter Diversity Score": 0.2610117004589566,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.95,
+                "Inter Diversity Score": 0.26359346628810304,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0.98,
+                "Inter Diversity Score": 0.2653050889977103,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 1,
+                "Inter Diversity Score": 0.2685884221386898,
+                "dataset": "TriviaQA"
+            },
+            {
+                "th": 0,
+                "Inter Diversity Score": 0.31625597754671386,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.3,
+                "Inter Diversity Score": 0.3191466612272888,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.5,
+                "Inter Diversity Score": 0.3186565355373814,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.6,
+                "Inter Diversity Score": 0.3000992437310939,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.7,
+                "Inter Diversity Score": 0.3099161528755416,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.75,
+                "Inter Diversity Score": 0.31906483687738024,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.8,
+                "Inter Diversity Score": 0.30269690325951304,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.83,
+                "Inter Diversity Score": 0.30715761018860055,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.85,
+                "Inter Diversity Score": 0.311518528846605,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.88,
+                "Inter Diversity Score": 0.3053244391369323,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.9,
+                "Inter Diversity Score": 0.31672776845057454,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.92,
+                "Inter Diversity Score": 0.3191182690567373,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.95,
+                "Inter Diversity Score": 0.3004908723792138,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0.98,
+                "Inter Diversity Score": 0.30930150999874184,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 1,
+                "Inter Diversity Score": 0.31938683005104396,
+                "dataset": "SQuAD"
+            },
+            {
+                "th": 0,
+                "Inter Diversity Score": 0.3336847835300112,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.3,
+                "Inter Diversity Score": 0.3244586883484631,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.5,
+                "Inter Diversity Score": 0.30056247014422793,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.6,
+                "Inter Diversity Score": 0.31836106208210413,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.7,
+                "Inter Diversity Score": 0.32024965665687605,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.75,
+                "Inter Diversity Score": 0.3061678795011281,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.8,
+                "Inter Diversity Score": 0.312570969130168,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.83,
+                "Inter Diversity Score": 0.3081605853359001,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.85,
+                "Inter Diversity Score": 0.3008492383856721,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.88,
+                "Inter Diversity Score": 0.31047617127821414,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.9,
+                "Inter Diversity Score": 0.3063845347972343,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.92,
+                "Inter Diversity Score": 0.31498481130756467,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.95,
+                "Inter Diversity Score": 0.32667986864814197,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 0.98,
+                "Inter Diversity Score": 0.3305518181386957,
+                "dataset": "ASQA"
+            },
+            {
+                "th": 1,
+                "Inter Diversity Score": 0.3119765332494294,
+                "dataset": "ASQA"
+            }
+        ]
+    }
+}
