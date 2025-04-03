@@ -1,0 +1,236 @@
+WMD diversity of NQ
+    k  Inter Diversity Score dataset
+0   0               0.231404      NQ
+1   1               0.219912      NQ
+2   2               0.238639      NQ
+3   3               0.232371      NQ
+4   5               0.233785      NQ
+5  10               0.228049      NQ
+6  15               0.231949      NQ
+7  20               0.219599      NQ
+8  30               0.230364      NQ
+9  40               0.236944      NQ
+
+
+WMD diversity of TriviaQA
+     k  Inter Diversity Score   dataset
+10   0               0.127227  TriviaQA
+11   1               0.123323  TriviaQA
+12   2               0.124193  TriviaQA
+13   3               0.128376  TriviaQA
+14   5               0.120555  TriviaQA
+15  10               0.119499  TriviaQA
+16  15               0.135018  TriviaQA
+17  20               0.127673  TriviaQA
+18  30               0.135218  TriviaQA
+19  40               0.136620  TriviaQA
+
+
+WMD diversity of SQuAD
+     k  Inter Diversity Score dataset
+20   0               0.288360   SQuAD
+21   1               0.274231   SQuAD
+22   2               0.269116   SQuAD
+23   3               0.265888   SQuAD
+24   5               0.280021   SQuAD
+25  10               0.277892   SQuAD
+26  15               0.263518   SQuAD
+27  20               0.266995   SQuAD
+28  30               0.276021   SQuAD
+29  40               0.276025   SQuAD
+
+
+WMD diversity of ASQA
+     k  Inter Diversity Score dataset
+30   0               0.240463    ASQA
+31   1               0.228241    ASQA
+32   2               0.219847    ASQA
+33   3               0.212274    ASQA
+34   5               0.213302    ASQA
+35  10               0.210777    ASQA
+36  15               0.219764    ASQA
+37  20               0.215294    ASQA
+38  30               0.222534    ASQA
+39  40               0.218491    ASQA
+
+#########################################
+
+RougeL of NQ
+    k  RougeL Score dataset
+0   0      0.472848      NQ
+1   1      0.467962      NQ
+2   2      0.459259      NQ
+3   3      0.463170      NQ
+4   5      0.462356      NQ
+5  10      0.455367      NQ
+6  15      0.462326      NQ
+7  20      0.466420      NQ
+8  30      0.463819      NQ
+9  40      0.469270      NQ
+
+
+RougeL of TriviaQA
+     k  RougeL Score   dataset
+10   0      0.571181  TriviaQA
+11   1      0.571652  TriviaQA
+12   2      0.573823  TriviaQA
+13   3      0.561391  TriviaQA
+14   5      0.571794  TriviaQA
+15  10      0.569151  TriviaQA
+16  15      0.565871  TriviaQA
+17  20      0.574877  TriviaQA
+18  30      0.565573  TriviaQA
+19  40      0.561448  TriviaQA
+
+
+RougeL of SQuAD
+     k  RougeL Score dataset
+20   0      0.329542   SQuAD
+21   1      0.320883   SQuAD
+22   2      0.323948   SQuAD
+23   3      0.320633   SQuAD
+24   5      0.318627   SQuAD
+25  10      0.315080   SQuAD
+26  15      0.309353   SQuAD
+27  20      0.318596   SQuAD
+28  30      0.317914   SQuAD
+29  40      0.312749   SQuAD
+
+
+RougeL of ASQA
+     k  RougeL Score dataset
+30   0      0.473449    ASQA
+31   1      0.469119    ASQA
+32   2      0.458184    ASQA
+33   3      0.463685    ASQA
+34   5      0.463664    ASQA
+35  10      0.459265    ASQA
+36  15      0.469409    ASQA
+37  20      0.475875    ASQA
+38  30      0.465078    ASQA
+39  40      0.468881    ASQA
+
+
+
+###########################################
+
+
+BLEU diversity of NQ
+    k  Inter Diversity Score dataset
+0   0               0.208765      NQ
+1   1               0.215359      NQ
+2   2               0.215819      NQ
+3   3               0.208708      NQ
+4   5               0.221262      NQ
+5  10               0.228306      NQ
+6  15               0.216086      NQ
+7  20               0.228800      NQ
+8  30               0.215889      NQ
+9  40               0.209996      NQ
+
+
+BLEU diversity of TriviaQA
+     k  Inter Diversity Score   dataset
+10   0               0.188736  TriviaQA
+11   1               0.193974  TriviaQA
+12   2               0.189305  TriviaQA
+13   3               0.189393  TriviaQA
+14   5               0.188085  TriviaQA
+15  10               0.194563  TriviaQA
+16  15               0.187688  TriviaQA
+17  20               0.183908  TriviaQA
+18  30               0.186035  TriviaQA
+19  40               0.182025  TriviaQA
+
+
+BLEU diversity of SQuAD
+     k  Inter Diversity Score dataset
+20   0               0.173524   SQuAD
+21   1               0.178736   SQuAD
+22   2               0.175589   SQuAD
+23   3               0.179040   SQuAD
+24   5               0.178295   SQuAD
+25  10               0.171244   SQuAD
+26  15               0.175524   SQuAD
+27  20               0.181381   SQuAD
+28  30               0.171003   SQuAD
+29  40               0.170335   SQuAD
+
+
+BLEU diversity of ASQA
+     k  Inter Diversity Score dataset
+30   0               0.202734    ASQA
+31   1               0.206247    ASQA
+32   2               0.213543    ASQA
+33   3               0.203239    ASQA
+34   5               0.209467    ASQA
+35  10               0.212102    ASQA
+36  15               0.203931    ASQA
+37  20               0.215899    ASQA
+38  30               0.198633    ASQA
+39  40               0.216116    ASQA
+
+
+
+##########################################
+
+
+TF-IDF diversity of NQ
+    k  Inter Diversity Score dataset
+0   0               0.416950      NQ
+1   1               0.399688      NQ
+2   2               0.390568      NQ
+3   3               0.416479      NQ
+4   5               0.420159      NQ
+5  10               0.396242      NQ
+6  15               0.397548      NQ
+7  20               0.390492      NQ
+8  30               0.403059      NQ
+9  40               0.418664      NQ
+
+
+TF-IDF diversity of TriviaQA
+     k  Inter Diversity Score   dataset
+10   0               0.146573  TriviaQA
+11   1               0.143384  TriviaQA
+12   2               0.154845  TriviaQA
+13   3               0.156630  TriviaQA
+14   5               0.147900  TriviaQA
+15  10               0.145781  TriviaQA
+16  15               0.149357  TriviaQA
+17  20               0.140439  TriviaQA
+18  30               0.152068  TriviaQA
+19  40               0.157613  TriviaQA
+
+
+TF-IDF diversity of SQuAD
+     k  Inter Diversity Score dataset
+20   0               0.506698   SQuAD
+21   1               0.490772   SQuAD
+22   2               0.501253   SQuAD
+23   3               0.505270   SQuAD
+24   5               0.508240   SQuAD
+25  10               0.509998   SQuAD
+26  15               0.505704   SQuAD
+27  20               0.491962   SQuAD
+28  30               0.519810   SQuAD
+29  40               0.517556   SQuAD
+
+
+TF-IDF diversity of ASQA
+     k  Inter Diversity Score dataset
+30   0               0.396627    ASQA
+31   1               0.390689    ASQA
+32   2               0.365720    ASQA
+33   3               0.372850    ASQA
+34   5               0.384242    ASQA
+35  10               0.374112    ASQA
+36  15               0.370259    ASQA
+37  20               0.355218    ASQA
+38  30               0.372173    ASQA
+39  40               0.374838    ASQA
+
+
+
+
+
