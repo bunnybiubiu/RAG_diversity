@@ -19,7 +19,7 @@ The generated answers on datasets are stored in "top-k_results" and "threshold_r
 
 ### Evaluation of Question-answer Pairs
 
-Since the actual generation of answers on different datasets are parallized by MapReduce. The generated answers of a datasets are stored in several folders. They need to be merged and converted into the required format by "merge_data.ipynb". The generated transformed answers are stored in "clean_data" folder.
+Since the actual generation of answers on different datasets are parallized through MapReduce. The generated answers of a datasets are stored in several folders. They need to be merged and converted into the required format by "merge_data.ipynb". The generated transformed answers are stored in "clean_data" folder.
 
 "eval-wmd.ipynb" is used to evaluate the answers of different pipelines on different datasets by RougeL and WMD metrics.
 
