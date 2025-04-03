@@ -5,9 +5,9 @@ This repository contains code for the project of enhancing diversity of RAG in L
 
 ## Usage Guidelines
 
-### Application of RAG pipelines to different datasets
+### Application of RAG Pipelines to Different Datasets
 
-Only "threshold.ipynb", "top-k.ipynb", "top-m.ipynb" and "top-p.ipynb" need to be run. In each of these files, two parts are contained, for normal RAG pipeline and for evaluation respectively. 
+Only "threshold.ipynb", "top-k.ipynb", "top-m.ipynb" and "top-p.ipynb" need to be run. In each of these files, two parts are contained, for normal RAG pipeline and for evaluation respectively.
 
 The normal RAG pipeline integrate all different processes into a chain. You are welcome to delete the comment signs and try running them.
 
@@ -15,7 +15,9 @@ The part for evaluation seperates different processes, but achieves the same fun
 
 As for the datasets, they are not uploaded due to the limitation of file sizes. However, by running the codes, you will obtain the same datastes locally.
 
-### Evaluation of question-anwer pairs
+The generated answers on datasets are stored in "top-k_results" and "threshold_results".
+
+### Evaluation of Question-answer Pairs
 
 Since the actual generation of answers on different datasets are parallized by MapReduce. The generated answers of a datasets are stored in several folders. They need to be merged and converted into the required format by "merge_data.ipynb". The generated transformed answers are stored in "clean_data" folder.
 
@@ -23,9 +25,25 @@ Since the actual generation of answers on different datasets are parallized by M
 
 "eval_bleu.ipynb" and "eval_tf-idf.ipynb" are used to evaluate them by BLEU and TF-IDF.
 
-### Notes
+The evaluation result details are stored in "wmd", "bleu" and "tf-idf" folders.
 
-Sometimes the comments are irrelevant with the code. Please ignore them. I didn't revise comments when I did modifications to the code.
+Besides, the extracted evaluation summarization are stored in "k-summary.txt" and "th.summary.t]xt".
+
+### About Selection of Datapoints
+
+Respective 1000 indices are randomly choosed from the range of 1800 (the size of the efficient version of NQ), the size of TriviaQA, the size of flattened SQuAD and the size of flattened ASQA sequentially, with the random state seed of 42. These indices are used to locate questions in NQ, TriviaQA, SQuAD and ASQA, respectively. 
+
+Because of the limitation of number of relevant articles in corpus, less than 1000 questions are valid for generating answers in "top-k_results" and "threshold_results". The first 500 question-answer pairs will be used for final evaluation of RougeL and diversity, which should be repeatable.
+
+However, for the top-k method, on TriviaQA, since the first 1000 questions don't contain enough (500) valid questions, 1500 indices are choosed from the same random state and the first 500 valid questions are used for evaluation. For SQuAD and ASQA, they still use the questions indiced by the original way of generating indices.
+
+### Important Notes
+
+The author used a wrong code for similarity threshold retrieval method, and generated some wrong evaluation results, which are stored with top-k results. Sometimes, you open a folder which should contain top-k and threshold results, but you only see threshold results and a folder named or containing "old". The top-k results are in the "old" folder, which are not separated from the old version of threshold results (wrong version). The author didn't separate them in order to keep the most original data. If you found it difficult to separate them by yourself, please contact the author for assistance.
+
+### Warnings
+
+The author didn't modify the comments when modifying the codes. Therefore, sometimes the comments are irrelevant with the code. Please ignore them. 
 
 ## Similarity-Threshold Retrieval:
 
