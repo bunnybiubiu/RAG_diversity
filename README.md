@@ -27,7 +27,7 @@ Since the actual generation of answers on different datasets are parallized by M
 
 The evaluation result details are stored in "wmd", "bleu" and "tf-idf" folders.
 
-Besides, the extracted evaluation summarization are stored in "k-summary.txt" and "th.summary.t]xt".
+Besides, the extracted evaluation summarization are stored in "k-summary.txt" and "th-summary.txt".
 
 ### About Selection of Datapoints
 
