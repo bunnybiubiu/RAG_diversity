@@ -1,0 +1,157 @@
+TF-IDF diversity of NQ
+      th  Inter Diversity Score dataset
+0   0.00               0.699168      NQ
+1   0.30               0.707746      NQ
+2   0.50               0.695799      NQ
+3   0.60               0.712949      NQ
+4   0.70               0.701517      NQ
+5   0.75               0.691231      NQ
+6   0.80               0.703881      NQ
+7   0.83               0.697421      NQ
+8   0.85               0.673422      NQ
+9   0.88               0.679079      NQ
+10  0.90               0.656476      NQ
+11  0.92               0.653208      NQ
+12  0.95               0.645310      NQ
+13  0.98               0.648348      NQ
+14  1.00               0.642376      NQ
+
+
+TF-IDF diversity of TriviaQA
+      th  Inter Diversity Score   dataset
+15  0.00               0.469676  TriviaQA
+16  0.30               0.471201  TriviaQA
+17  0.50               0.458924  TriviaQA
+18  0.60               0.455604  TriviaQA
+19  0.70               0.478680  TriviaQA
+20  0.75               0.474946  TriviaQA
+21  0.80               0.463226  TriviaQA
+22  0.83               0.455138  TriviaQA
+23  0.85               0.477325  TriviaQA
+24  0.88               0.439703  TriviaQA
+25  0.90               0.435039  TriviaQA
+26  0.92               0.448505  TriviaQA
+27  0.95               0.428201  TriviaQA
+28  0.98               0.445080  TriviaQA
+29  1.00               0.438984  TriviaQA
+
+
+
+##############################################
+
+WMD diversity of NQ
+      th  Inter Diversity Score dataset
+0   0.00               0.332071      NQ
+1   0.30               0.342250      NQ
+2   0.50               0.334574      NQ
+3   0.60               0.330185      NQ
+4   0.70               0.329265      NQ
+5   0.75               0.334958      NQ
+6   0.80               0.338154      NQ
+7   0.83               0.337834      NQ
+8   0.85               0.304438      NQ
+9   0.88               0.323501      NQ
+10  0.90               0.308976      NQ
+11  0.92               0.303118      NQ
+12  0.95               0.307132      NQ
+13  0.98               0.315668      NQ
+14  1.00               0.305233      NQ
+
+
+WMD diversity of TriviaQA
+      th  Inter Diversity Score   dataset
+15  0.00               0.290664  TriviaQA
+16  0.30               0.288357  TriviaQA
+17  0.50               0.293655  TriviaQA
+18  0.60               0.293221  TriviaQA
+19  0.70               0.291304  TriviaQA
+20  0.75               0.287952  TriviaQA
+21  0.80               0.283576  TriviaQA
+22  0.83               0.288995  TriviaQA
+23  0.85               0.296130  TriviaQA
+24  0.88               0.272773  TriviaQA
+25  0.90               0.264863  TriviaQA
+26  0.92               0.271556  TriviaQA
+27  0.95               0.274695  TriviaQA
+28  0.98               0.268036  TriviaQA
+29  1.00               0.268001  TriviaQA
+
+
+###########################################
+
+RougeL of NQ
+      th  RougeL Score dataset
+0   0.00      0.252595      NQ
+1   0.30      0.241992      NQ
+2   0.50      0.266346      NQ
+3   0.60      0.244702      NQ
+4   0.70      0.245214      NQ
+5   0.75      0.263289      NQ
+6   0.80      0.258320      NQ
+7   0.83      0.273955      NQ
+8   0.85      0.253490      NQ
+9   0.88      0.269703      NQ
+10  0.90      0.291999      NQ
+11  0.92      0.294169      NQ
+12  0.95      0.301254      NQ
+13  0.98      0.309469      NQ
+14  1.00      0.294370      NQ
+
+
+RougeL of TriviaQA
+      th  RougeL Score   dataset
+15  0.00      0.677936  TriviaQA
+16  0.30      0.673533  TriviaQA
+17  0.50      0.681671  TriviaQA
+18  0.60      0.680048  TriviaQA
+19  0.70      0.680141  TriviaQA
+20  0.75      0.672127  TriviaQA
+21  0.80      0.683401  TriviaQA
+22  0.83      0.666947  TriviaQA
+23  0.85      0.668881  TriviaQA
+24  0.88      0.701233  TriviaQA
+25  0.90      0.690539  TriviaQA
+26  0.92      0.690832  TriviaQA
+27  0.95      0.700198  TriviaQA
+28  0.98      0.696876  TriviaQA
+29  1.00      0.701264  TriviaQA
+
+##################################
+
+BLEU diversity of NQ
+      th  Inter Diversity Score dataset
+0   0.00               0.125742      NQ
+1   0.30               0.122456      NQ
+2   0.50               0.121736      NQ
+3   0.60               0.122223      NQ
+4   0.70               0.131504      NQ
+5   0.75               0.124308      NQ
+6   0.80               0.116108      NQ
+7   0.83               0.130183      NQ
+8   0.85               0.137480      NQ
+9   0.88               0.140195      NQ
+10  0.90               0.149117      NQ
+11  0.92               0.162685      NQ
+12  0.95               0.153881      NQ
+13  0.98               0.157756      NQ
+14  1.00               0.156679      NQ
+
+
+BLEU diversity of TriviaQA
+      th  Inter Diversity Score   dataset
+15  0.00               0.136121  TriviaQA
+16  0.30               0.129238  TriviaQA
+17  0.50               0.130864  TriviaQA
+18  0.60               0.128175  TriviaQA
+19  0.70               0.132971  TriviaQA
+20  0.75               0.133835  TriviaQA
+21  0.80               0.132447  TriviaQA
+22  0.83               0.137410  TriviaQA
+23  0.85               0.127423  TriviaQA
+24  0.88               0.147986  TriviaQA
+25  0.90               0.161981  TriviaQA
+26  0.92               0.145361  TriviaQA
+27  0.95               0.146446  TriviaQA
+28  0.98               0.150480  TriviaQA
+29  1.00               0.152614  TriviaQA
+
