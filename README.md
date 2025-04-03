@@ -19,32 +19,6 @@ Sometimes the comments are irrelevant with the code. Please ignore them. I didn'
 
 "threshold.ipynb" contains code for studying the effect of similarity-threshold retrieval on the performance of RAG. Fisrt, top-m relevant documents are retrieved. Then, documents are selected with equal probabilities. Only those having similarity scores lower than a threshold with previous selected documents can be kept. Eventually at most k documents will be returned to the LLM together with query.
 
-### Proof of Equivalent Effect
-
-This method has equivalent effects as maximum margin method. Below is a short illustration.
-
-The maximum margin method samples one document from each cluster, while these documents are clustered according to their inter-cluster similarity and intra-cluster similarity. However, the similarity theshold method randomly selects one document and rejects all similar ones. Therefore, only docs from different clusters can be selected. 
-
-Now we discuss the case where the maximum margin method and similarity threshold method are combined with random sampling according to probabilities. For the former, each doc in a cluster has the a probability to be selected, which is calculated based on their relevance with the query. For the latter, only one doc from each cluster will be selected, and each doc in the same cluster has a probability to be firstly selected (if they are not firstly selected, they will be rejected because the similarity threshold condition), corresponding to their relavance with the query. 
-
-In conclusion, the maximum margin method and the similarity threshold method have same effect, as long as the similarity threshold is set to distinguish inter-cluster and intra-cluster relationship of docs.
-
-### Advantages, Disadvantages, Comparison: 
-
-Maximum margin method needs full matrix calculation to group documents into different clusters, which costs a lot of computation. Its time complexity is n**2, where n is the number of document. Other constants, e.g., document embedding dimension, is not taken into account.
-
-In contrast, the similarity threshold method selects one document and compares its similarity with previously chosen documents. The already rejected docs will not be used for comparison with newly selected document. Therefore, its time complexity is n*k, where k is the number of finally selected documents.
-
-On the other hand, the maximum margin method requires no pre-knowledge of the retrieved documents. The clustering is automatically finished by the imported function.
-
-Nevertheless, the similarity threshold method may need some experience to set a good threshold value. To alleviate it, all document embeddings are normalized. Consequently, the similarity score calculated is relative to documents. This improves the generality of setting threshold values among different datasets or corpus. Still, some experience is needed to set a good value.
-
-### Some Future works
-
-The code only studied the basic case of similarity-threshold retrieval, i.e., every document has equal probability of being sampled in the selection stage. 
-
-Future works can be done to incorporate random sampling with respect to probability (calculated on the similarity with query), temperature setting, and adding noise to the selection stage.
-
 ## Top-k Retrieval
 
 "top-k.ipynb" contains code for top-k retrieval. The method simply returns top-k documents most relevant to the query. The code studies the effect on generation diversity of different k values.
@@ -72,10 +46,6 @@ There is no need to add non-zero center to the Guassian Distribution, because th
 "top-p.ipynb" contains code for top-p retrieval, temperature, and noise.
 
 As for the definition of top-p retrieval, please ask ChatGPT for detailed explanation.
-
-## More Future works
-
-All of the above only study the effect of changing a single factor on performance of RAG. In future works, the interaction of different factors could be studied. For example, at different temperatures, at different similarity thresholds, at different m or p, at different k, how will the overall performance of RAG change?
 
 ## Datasets
 
