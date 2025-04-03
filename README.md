@@ -41,6 +41,8 @@ However, for the top-k method, on TriviaQA, since the first 1000 questions don't
 
 The author used a wrong code for similarity threshold retrieval method, and generated some wrong evaluation results, which are stored with top-k results. Sometimes, you open a folder which should contain top-k and threshold results, but you only see threshold results and a folder named or containing "old". The top-k results are in the "old" folder, which are not separated from the old version of threshold results (wrong version). The author didn't separate them in order to keep the most original data. If you found it difficult to separate them by yourself, please contact the author for assistance.
 
+If there is anything unclear, please contact the author for detailed illustration.
+
 ### Warnings
 
 The author didn't modify the comments when modifying the codes. Therefore, sometimes the comments are irrelevant with the code. Please ignore them. 
