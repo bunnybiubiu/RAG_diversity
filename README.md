@@ -57,7 +57,7 @@ There might be version incompatibility issues. Please figure them out for the su
 
 ## Top-m Retrieval, Temperature, Noise
 
-In "top-m.ipynb" file.
+In "top-m.ipynb" file. Top-m file may contain some mistakes. Please contact the author for assistance if you fail to figure them out by yourself.
 
 ### Random Sample k from Top-m
 
@@ -75,7 +75,7 @@ There is no need to add non-zero center to the Guassian Distribution, because th
 
 ## Top-p Retrieval
 
-"top-p.ipynb" contains code for top-p retrieval, temperature, and noise.
+"top-p.ipynb" contains code for top-p retrieval, temperature, and noise. Top-p file may contain come mistakes. Please contact the author if you need.
 
 As for the definition of top-p retrieval, please ask ChatGPT for detailed explanation.
 
