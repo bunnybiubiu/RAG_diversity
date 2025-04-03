@@ -45,6 +45,8 @@ The author used a wrong code for similarity threshold retrieval method, and gene
 
 The author didn't modify the comments when modifying the codes. Therefore, sometimes the comments are irrelevant with the code. Please ignore them. 
 
+There might be version incompatibility issues. Please figure them out for the successful running of codes.
+
 ## Similarity-Threshold Retrieval:
 
 "threshold.ipynb" contains code for studying the effect of similarity-threshold retrieval on the performance of RAG. Fisrt, top-m relevant documents are retrieved. Then, documents are selected with equal probabilities. Only those having similarity scores lower than a threshold with previous selected documents can be kept. Eventually at most k documents will be returned to the LLM together with query.
