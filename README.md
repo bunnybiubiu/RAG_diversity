@@ -5,11 +5,23 @@ This repository contains code for the project of enhancing diversity of RAG in L
 
 ## Usage Guidelines
 
-Only "threshold.ipynb", "top-k.ipynb", "top-m.ipynb", and "top-p.ipynb" need to be run. In each of these files, two parts are contained, for normal RAG pipeline and for evaluation respectively. 
+### Application of RAG pipelines to different datasets
+
+Only "threshold.ipynb", "top-k.ipynb", "top-m.ipynb" and "top-p.ipynb" need to be run. In each of these files, two parts are contained, for normal RAG pipeline and for evaluation respectively. 
 
 The normal RAG pipeline integrate all different processes into a chain. You are welcome to delete the comment signs and try running them.
 
 The part for evaluation seperates different processes, but achieves the same function. This is because evaluation on a dataset for a specific parameter needs to keep other parameters unchanged. As a result, some retrieval processes may be same for different values of the parameter studied. To save the computation time and accelerate the evaluation efficiency, the full chain is decomposed in such a way.
+
+As for the datasets, they are not uploaded due to the limitation of file sizes. However, by running the codes, you will obtain the same datastes locally.
+
+### Evaluation of question-anwer pairs
+
+Since the actual generation of answers on different datasets are parallized by MapReduce. The generated answers of a datasets are stored in several folders. They need to be merged and converted into the required format by "merge_data.ipynb". The generated transformed answers are stored in "clean_data" folder.
+
+"eval-wmd.ipynb" is used to evaluate the answers of different pipelines on different datasets by RougeL and WMD metrics.
+
+"eval_bleu.ipynb" and "eval_tf-idf.ipynb" are used to evaluate them by BLEU and TF-IDF.
 
 ### Notes
 
